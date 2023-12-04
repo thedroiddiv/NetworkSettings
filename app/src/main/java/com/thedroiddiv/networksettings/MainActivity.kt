@@ -14,7 +14,7 @@ class MainActivity : ComponentActivity() {
             startActivity(intent)
         } catch (e: Exception) {
             Toast.makeText(applicationContext, "Device not supported", Toast.LENGTH_SHORT).show()
-            finish()
         }
+        finish()
     }
 }
